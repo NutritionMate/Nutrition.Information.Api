@@ -1,5 +1,5 @@
 # User Story Definition of Ready
-Before a story is ready to be worked on. The following identified and confirmed:
+Before a user story is ready to be worked on. The following must be identified and confirmed:
 - Value for stakeholder identified
 - Acceptance criteria identified
 - Test plan identified
