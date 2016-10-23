@@ -1,0 +1,22 @@
+{
+  "name": "nutrition.information.api",
+  "version": "1.0.0",
+  "description": "This is an API to retrieve nutritional information about a given item of food.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \\\"No tests currently specified\\\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NutritionMate/Nutrition.Information.Api.git"
+  },
+  "author": "Nutrition Mate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NutritionMate/Nutrition.Information.Api/issues"
+  },
+  "homepage": "https://github.com/NutritionMate/Nutrition.Information.Api#readme"
+}
