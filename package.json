@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \\\"No tests currently specified\\\""
+    "test": "mocha test --recursive"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/NutritionMate/Nutrition.Information.Api/issues"
   },
-  "homepage": "https://github.com/NutritionMate/Nutrition.Information.Api#readme"
+  "homepage": "https://github.com/NutritionMate/Nutrition.Information.Api#readme",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
 }
