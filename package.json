@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \\\"No tests currently specified\\\""
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --recursive && istanbul check-coverage --statements 100 --functions 100 --branches 100 --lines 100"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/NutritionMate/Nutrition.Information.Api/issues"
   },
-  "homepage": "https://github.com/NutritionMate/Nutrition.Information.Api#readme"
+  "homepage": "https://github.com/NutritionMate/Nutrition.Information.Api#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
 }
