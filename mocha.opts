@@ -1,0 +1,6 @@
+--compilers ts:ts-node/register
+--recursive
+--check-leaks
+--inline-diffs
+--throw-deprecation
+--use_strict
