@@ -20,14 +20,14 @@
   },
   "homepage": "https://github.com/NutritionMate/Nutrition.Information.Api#readme",
   "devDependencies": {
-    "@types/chai": "^3.4.34",
-    "@types/istanbul": "^0.4.29",
-    "@types/mocha": "^2.2.34",
-    "@types/node": "^7.0.4",
-    "chai": "^3.5.0",
-    "istanbul": "^1.1.0-alpha.1",
-    "mocha": "^3.2.0",
-    "ts-node": "^2.0.0",
-    "typescript": "^2.1.4"
+    "@types/chai": "3.4.34",
+    "@types/istanbul": "0.4.29",
+    "@types/mocha": "2.2.34",
+    "@types/node": "7.0.4",
+    "chai": "3.5.0",
+    "istanbul": "1.1.0-alpha.1",
+    "mocha": "3.2.0",
+    "ts-node": "2.0.0",
+    "typescript": "2.1.4"
   }
 }
