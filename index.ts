@@ -1,9 +1,9 @@
-export default class index {
-	constructor(){
-		
-	}
+export default class Index {
+    constructor() {
 
-	helloWorld() {
-		return 'hello world';
-	}
+    }
+
+    helloWorld() {
+        return "hello world";
+    }
 }
