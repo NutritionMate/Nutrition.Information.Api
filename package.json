@@ -6,8 +6,9 @@
     "doc": "docs"
   },
   "scripts": {
+    "lint": "tslint --project ./ --typecheck",
     "build": "tsc",
-    "test": "istanbul cover -e .ts -x '*.spec.ts' _mocha -- --opts mocha.opts && istanbul check-coverage --statements 100 --functions 100 --branches 100 --lines 100"
+    "test": "npm run-script lint && istanbul cover -e .ts -x '*.spec.ts' _mocha -- --opts mocha.opts && istanbul check-coverage --statements 100 --functions 100 --branches 100 --lines 100"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "istanbul": "1.1.0-alpha.1",
     "mocha": "3.2.0",
     "ts-node": "2.0.0",
+    "tslint": "4.4.2",
     "typescript": "2.1.5"
   }
 }
