@@ -24,7 +24,7 @@
     "@types/chai": "3.4.34",
     "@types/istanbul": "0.4.29",
     "@types/mocha": "2.2.38",
-    "@types/node": "7.0.4",
+    "@types/node": "7.0.5",
     "chai": "3.5.0",
     "istanbul": "1.1.0-alpha.1",
     "mocha": "3.2.0",
