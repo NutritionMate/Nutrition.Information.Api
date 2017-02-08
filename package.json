@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "tslint --project ./ --typecheck",
     "build": "tsc",
-    "test": "npm run-script lint && istanbul cover -e .ts -x '*.spec.ts' _mocha -- --opts mocha.opts && istanbul check-coverage --statements 100 --functions 100 --branches 100 --lines 100"
+    "test": "npm run-script lint && istanbul cover -e .ts -x '*.spec.ts' _mocha -- --opts mocha.opts && istanbul check-coverage --statements 100 --functions 100 --branches 100 --lines 100",
+    "test:integration": "cucumberjs --compiler ts:ts-node/register test/component/feature/**/*.feature"
   },
   "repository": {
     "type": "git",
@@ -22,12 +23,20 @@
   "homepage": "https://github.com/NutritionMate/Nutrition.Information.Api#readme",
   "devDependencies": {
     "@types/chai": "3.4.34",
-    "@types/istanbul": "0.4.29",
+    "@types/cucumber": "0.0.35",
     "@types/mocha": "2.2.39",
     "@types/node": "7.0.5",
+    "@types/request": "0.0.39",
+    "@types/request-promise": "4.1.33",
+    "@types/sinon": "1.16.34",
     "chai": "3.5.0",
+    "cucumber": "1.3.1",
+    "cucumber-tsflow": "1.1.2",
     "istanbul": "1.1.0-alpha.1",
     "mocha": "3.2.0",
+    "request": "2.79.0",
+    "request-promise": "4.1.1",
+    "sinon": "1.17.7",
     "ts-node": "2.0.0",
     "tslint": "4.4.2",
     "typescript": "2.1.5"

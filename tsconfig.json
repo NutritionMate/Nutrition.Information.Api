@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
     "alwaysStrict": true,
+    "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
@@ -22,6 +25,6 @@
   "exclude": [
     "node_modules",
     "bin",
-    "**/*.spec.ts"
+    "test"
   ]
 }
