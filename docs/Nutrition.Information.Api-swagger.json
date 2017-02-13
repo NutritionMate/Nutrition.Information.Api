@@ -14,19 +14,10 @@
         ],
         "responses": {
           "200": {
-            "description": "200 response",
-            "schema": {
-              "$ref": "#/definitions/Empty"
-            }
+            "description": "200 response"
           }
         }
       }
-    }
-  },
-  "definitions": {
-    "Empty": {
-      "type": "object",
-      "title": "Empty Schema"
     }
   }
 }
