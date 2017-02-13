@@ -5,27 +5,36 @@ import rp = require("request-promise");
 
 @binding()
 class PingSteps {
-    private pingResponse: any;
+    private readonly nutritionInformationApiUri: string = "<Insert URI to Ping endpoint>";
+    private v1PingResponse: any;
 
     @given(/Nutrition.Information.Api is deployed/)
     public async givenNutritionInformationApiDeployed(): Promise<void> {
-        // It is expected Nutrition.Information.Api is deployed by other means
+        let apiPingUri: string = this.nutritionInformationApiUri + "/ping";
+        let apiPingOptions = {
+            uri: apiPingUri,
+            resolveWithFullResponse: true
+        };
+
+        let apiPingResponse = await rp(apiPingOptions);
+        expect(apiPingResponse.statusCode).to.be.equal(200);
     }
 
     @when(/a request is sent to \/v1\/ping/)
     public async whenPingRequestSent(): Promise<void> {
-        let pingOptions = {
-            uri: "<Insert URI to Ping endpoint>",
+        let v1PingUri: string = this.nutritionInformationApiUri + "/default/v1/ping";
+        let v1PingOptions = {
+            uri: v1PingUri,
             resolveWithFullResponse: true
         };
 
-        this.pingResponse = await rp(pingOptions);
+        this.v1PingResponse = await rp(v1PingOptions);
     }
 
     @then(/a response with a status 200 and empty body is returned/)
     public async thenPingResponseReceived(): Promise<void> {
-        expect(this.pingResponse.statusCode).to.be.equal(200);
-        expect(this.pingResponse.body).to.be.deep.equal("");
+        expect(this.v1PingResponse.statusCode).to.be.equal(200);
+        expect(this.v1PingResponse.body).to.be.deep.equal("");
     }
 }
 
