@@ -24,7 +24,7 @@
   "devDependencies": {
     "@types/chai": "3.4.35",
     "@types/cucumber": "0.0.38",
-    "@types/mocha": "2.2.39",
+    "@types/mocha": "2.2.40",
     "@types/node": "7.0.8",
     "@types/request": "0.0.41",
     "@types/request-promise": "4.1.33",
