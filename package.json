@@ -40,7 +40,7 @@
     "request-promise": "4.2.0",
     "sinon": "2.1.0",
     "ts-node": "2.1.2",
-    "tslint": "4.4.2",
+    "tslint": "5.2.0",
     "typescript": "2.2.2"
   }
 }
