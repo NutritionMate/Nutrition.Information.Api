@@ -23,7 +23,7 @@
   "homepage": "https://github.com/NutritionMate/Nutrition.Information.Api#readme",
   "devDependencies": {
     "@types/chai": "3.5.2",
-    "@types/cucumber": "0.0.39",
+    "@types/cucumber": "2.0.1",
     "@types/mocha": "2.2.41",
     "@types/node": "7.0.18",
     "@types/request": "0.0.43",
