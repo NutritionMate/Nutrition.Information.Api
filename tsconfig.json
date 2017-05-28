@@ -1,15 +1,12 @@
 {
   "compilerOptions": {
-    "alwaysStrict": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
     "moduleResolution": "node",
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": true,
     "noImplicitReturns": true,
-    "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "outDir": "./bin",
@@ -17,6 +14,7 @@
     "pretty": true,
     "removeComments": true,
     "rootDir": ".",
+    "strict": true,
     "target": "ES6"
   },
   "include": [
