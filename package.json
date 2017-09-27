@@ -34,7 +34,7 @@
     "cucumber-tsflow": "1.1.2",
     "istanbul": "1.1.0-alpha.1",
     "mocha": "3.4.1",
-    "request": "2.81.0",
+    "request": "2.83.0",
     "request-promise": "4.2.1",
     "sinon": "2.3.5",
     "ts-node": "3.1.0",
