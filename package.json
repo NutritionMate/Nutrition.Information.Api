@@ -36,7 +36,7 @@
     "mocha": "3.4.1",
     "request": "2.81.0",
     "request-promise": "4.2.1",
-    "sinon": "2.3.5",
+    "sinon": "7.4.1",
     "ts-node": "3.1.0",
     "tslint": "4.4.2",
     "typescript": "2.3.4"
